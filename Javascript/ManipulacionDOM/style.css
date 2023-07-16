@@ -1,0 +1,14 @@
+.verde{
+    background-color: chartreuse;
+    color: aliceblue;    
+}
+
+.rojo{
+    background-color: crimson;
+    color: beige;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
