@@ -29,6 +29,7 @@ body{
 }
 
 .form{
+    width: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -50,6 +51,11 @@ body{
     margin-bottom: 4px;
 }
 
+.value{
+    color: var(--very-light-pink);
+    margin: 8px 0 24px 0;
+}
+
 .input{
     background-color: var(--text-input-field);
     border:none;
@@ -58,6 +64,20 @@ body{
     font-size: var(--md);
     padding: 4px;
     margin-bottom: 12px;
+}
+
+.secondary-button{
+    background-color: var(--text-input-field);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 48px;
+    margin-bottom: 28px;
+    margin-top: 16px;
 }
 
 .primary-button{
